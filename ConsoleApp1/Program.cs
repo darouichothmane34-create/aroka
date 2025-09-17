@@ -24,8 +24,12 @@ class Program
         texte = File.ReadAllText(@"../../../../ressources\histoire.txt");
         Console.WriteLine(texte);
 
- 
-
         //Votre déroulé d'aventure
     }
+
+    public static void chapitre_01()
+    {
+        
+    }
+    
 }
