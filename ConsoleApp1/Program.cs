@@ -29,6 +29,8 @@ class Program
 
     public static void chapitre_01()
     {
+        String texte;
+        
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\sous_titre01.txt");
         Console.WriteLine(texte);
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\titre_image.txt");
