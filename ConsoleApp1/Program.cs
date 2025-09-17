@@ -104,11 +104,31 @@ class Program
 
     }
 
+    public static void chapitre_02()
+    {
+        string texte;
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\sous_titre.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\1ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\2ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\3ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\4ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\5ere_message.txt");
+        Console.WriteLine(texte);
+        
 
 
-
-
-
+    }
 
 } 
  
