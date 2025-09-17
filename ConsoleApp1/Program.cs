@@ -41,25 +41,26 @@ class Program
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\1er_message.txt");
         Console.WriteLine(texte);
 
-        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\2éme_message.txt");
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\2eme_message.txt");
         Console.WriteLine(texte);
 
-        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\3ème_message.txt");
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\3eme_message.txt");
         Console.WriteLine(texte);
 
-        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\4ème_message.txt");
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\4eme_message.txt");
         Console.WriteLine(texte);
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\4M_image.txt");
         Console.WriteLine(texte);
 
-        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\5ème_message.txt");
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\5eme_message.txt");
         Console.WriteLine(texte);
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\5M_image.txt");
         Console.WriteLine(texte);
 
-        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\6ème_message.txt");
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\6eme_message.txt");
         Console.WriteLine(texte);
-        
+
     }
+    
     
 }
