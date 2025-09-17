@@ -16,6 +16,11 @@ class Program
 
         texte = File.ReadAllText(@"../../../../ressources\image.txt");
         Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\démmarrage.txt");
+        Console.WriteLine(texte);
+        Console.ReadLine();
+
  
 
         //Votre déroulé d'aventure
