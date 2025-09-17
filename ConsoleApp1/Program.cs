@@ -11,7 +11,7 @@ class Program
         String choix;
 
         chapitre_00();
-        chapitre_01();
+        
 
         //Votre déroulé d'aventure
     }
@@ -52,7 +52,7 @@ class Program
 
     public static void chapitre_00()
     {
-         String texte;
+        String texte;
 
         texte = File.ReadAllText(@"../../../../ressources\titre.txt");
         Console.WriteLine(texte);
@@ -67,6 +67,7 @@ class Program
         texte = File.ReadAllText(@"../../../../ressources\histoire.txt");
         Console.WriteLine(texte);
         
+        chapitre_01();
 
     }
 
