@@ -24,13 +24,15 @@ class Program
         texte = File.ReadAllText(@"../../../../ressources\histoire.txt");
         Console.WriteLine(texte);
 
+        chapitre_01();
+
         //Votre déroulé d'aventure
     }
 
     public static void chapitre_01()
     {
         String texte;
-        
+
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\sous_titre01.txt");
         Console.WriteLine(texte);
         texte = File.ReadAllText(@"../../../../ressources\chapitre_01\titre_image.txt");
