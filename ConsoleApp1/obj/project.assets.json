@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\GIT\\JAT\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\git\\JAT\\aroka\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Administrateur\\Documents\\GIT\\JAT\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\Administrateur\\Documents\\git\\JAT\\aroka\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\Documents\\GIT\\JAT\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Administrateur\\Documents\\git\\JAT\\aroka\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
