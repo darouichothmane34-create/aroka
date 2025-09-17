@@ -29,6 +29,32 @@ class Program
 
     public static void chapitre_01()
     {
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\sous_titre01.txt");
+        Console.WriteLine(texte);
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\titre_image.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\1er_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\2éme_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\3ème_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\4ème_message.txt");
+        Console.WriteLine(texte);
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\4M_image.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\5ème_message.txt");
+        Console.WriteLine(texte);
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\5M_image.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_01\6ème_message.txt");
+        Console.WriteLine(texte);
         
     }
     
