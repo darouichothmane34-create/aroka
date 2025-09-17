@@ -11,8 +11,13 @@ class Program
         String choix;
         String texte;
 
-        texte = File.ReadAllText(@"C:\Users\Administrateur\Documents\git\JAT\aroka\ressources\texte.txt");
+        texte = File.ReadAllText(@"C:\Users\Administrateur\Documents\git\JAT\aroka\ressources\titre.txt");
         Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"C:\Users\Administrateur\Documents\git\JAT\aroka\ressources\image.txt");
+        Console.WriteLine(texte);
+ 
+
  
 
 
