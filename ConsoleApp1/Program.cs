@@ -11,7 +11,7 @@ class Program
         String choix;
 
         chapitre_00();
-        
+
 
         //Votre déroulé d'aventure
     }
@@ -66,11 +66,35 @@ class Program
 
         texte = File.ReadAllText(@"../../../../ressources\histoire.txt");
         Console.WriteLine(texte);
-        
-        chapitre_01();
 
+        chapitre_01();
     }
 
+    public static void chapitre_02()
+    {
+        string texte;
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\sous_titre.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\1ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\2ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\3ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\4ere_message.txt");
+        Console.WriteLine(texte);
+
+        texte = File.ReadAllText(@"../../../../ressources\chapitre_02\5ere_message.txt");
+        Console.WriteLine(texte);
+        
+
+
+    }
 
 
 
