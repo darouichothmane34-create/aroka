@@ -21,6 +21,9 @@ class Program
         Console.WriteLine(texte);
         Console.ReadLine();
 
+        texte = File.ReadAllText(@"../../../../ressources\histoire.txt");
+        Console.WriteLine(texte);
+
  
 
         //Votre déroulé d'aventure
